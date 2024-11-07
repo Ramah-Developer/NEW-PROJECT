@@ -1,7 +1,7 @@
 {
-  "name": "BASE LILY",
+  "name": "NEW PROJECT",
   "version": "0.0.1",
-  "description": "Lilychanj adalah sistem otomatis bot WhatsApp berbasis nodejs, yang dapat membantu anda untuk di WhatsApp",
+  "description": "This is a new project based",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
