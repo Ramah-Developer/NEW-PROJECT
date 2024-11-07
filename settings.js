@@ -9,14 +9,14 @@ const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const time = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('HH:mm:ss z')
 
 //PAIRING CODE
-global.pairing = '6281541177589'
+global.pairing = '256703025571'
 //contact details
-global.owner = ['6281541177589'] // ubah aja pake nomor lu
-global.owner0 = '6281541177589@s.whatsapp.net'
-global.nomerowner = ["6285658939117"]
+global.owner = ['256703025571'] // ubah aja pake nomor lu
+global.owner0 = '256703025571@s.whatsapp.net'
+global.nomerowner = ["256703025571"]
 global.ownername = "Tanaka Sense"
 
-global.ownernumber = '6281541177589'  //creator number
+global.ownernumber = '256703025571'  //creator number
 global.ownername = 'Tanaka Sense' //owner name
 global.botname = 'Tanaka Ngawi' //name of the bot
 
@@ -28,8 +28,7 @@ global.author = `At ${hariini}\n${time}` // ubah aja ini nama sticker
 global.themeemoji = '🍁'
 global.wm = " TanakaSense.js."
 global.urldb = ''; // kosongin aja
-global.idch = '120363285176234746@newsletter'
-
+global.idch = '120363335392141844@newsletter'
 //custom prefix
 global.prefa = ['/','!','.','#','&']
  
